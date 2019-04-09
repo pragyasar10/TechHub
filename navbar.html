@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.navbar input[type=text]
+{
+  float: right;
+  padding:6px;
+  margin-top:8px;
+  margin-right:60px;
+  border: none;
+  font-size:17px;
+}
+.navbar input[type=button]
+{
+  float: right;
+  padding: 6px;
+  margin-top:8px;
+  margin-right:8px;
+  border: none;
+  font-size:17px;
+}
+.topnav input[type=text]
+{
+  border:1px solid #ccc;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <a style="text-decoration:none" href="home.php"><span class="glyphicon glyphicon-home"></span> Home</a>
+    <a style="text-decoration:none" href="ask_question.php"><span class="glyphicon glyphicon-pencil"></span> Ask Question </a>
+    <a style="text-decoration:none" href="category.php"><span class="glyphicon glyphicon-tasks"></span> Category </a>
+      <a style="text-decoration:none" href="profile.php"><span class="glyphicon glyphicon-user"></span> Profile </a>
+    <a style="text-decoration:none" href="feedback.php"><span class="glyphicon glyphicon-home"></span> Feedback </a>
+    <input type="text" placeholder="Search..">
+    <input type="button" name="search" value="Search" style="position: absolute; right: 0">
+    <a style="text-decoration:none" href="Logout.php"><span class="glyphicon glyphicon-home"></span> Logout </a>
+</div>
+
+  </body>
+  </html>
